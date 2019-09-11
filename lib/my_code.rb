@@ -88,3 +88,5 @@ def reduce_to_all_true(arr)
      end
      return index_true
    end
+   
+   
