@@ -38,5 +38,8 @@ index = 0
 sum = 0
 while index < source_arr.length do
   sum += source_arr[index]
-  index
+  index+=1
+end
+return sum
+end
   
