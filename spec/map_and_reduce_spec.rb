@@ -64,10 +64,10 @@ describe 'my own reduce-like methods' do
     end
   end
 
-  describe "reduce_to_any_true returns false when no truthy value is present" do
+  describe "reduce_to_any_true1 returns false when no truthy value is present" do
     it "reduces correctly" do
       source_array = [ false, nil, nil, nil]
-      expect(reduce_to_any_true(source_array)).to eq(false)
+      expect(reduce_to_any_true1(source_array)).to eq(false)
     end
   end
 end
