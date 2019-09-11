@@ -77,3 +77,14 @@ def reduce_to_all_true(arr)
    return only_false
  end
 
+   def reduce_to_any_true (arr)
+     index = 0 
+     index_true = true
+     while index < arr.length do
+       if (arr[index]==index_true)
+         index_true
+       end
+       index+=1 
+     end
+     return index_true
+   end
