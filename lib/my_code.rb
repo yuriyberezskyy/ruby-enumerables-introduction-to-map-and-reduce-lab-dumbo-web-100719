@@ -53,5 +53,10 @@ end
 return sum + add
 end
 
-def 
+def reduce_to_all_true(arr)
+  index = 0 
+  only_true = 0
+  while index < arr.length do
+    if arr[index] == true
+      
 
