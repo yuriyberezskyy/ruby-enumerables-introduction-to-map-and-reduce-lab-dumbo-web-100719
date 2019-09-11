@@ -35,11 +35,11 @@ end
 
 def reduce_to_total(source_arr,starting_point)
 index = 0
-sum = 0
+starting_point = 0
 while index < source_arr.length do
-  sum += source_arr[index]
+  starting_point= source_arr[index]
   index+=1
 end
-return sum
+return starting_point
 end
   
