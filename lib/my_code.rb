@@ -58,5 +58,11 @@ def reduce_to_all_true(arr)
   only_true = 0
   while index < arr.length do
     if arr[index] == true
-      
+        only_true = true
+     end
+     index+= 1
+   end
+   return only_true
+ end
+   
 
