@@ -36,7 +36,7 @@ end
 def reduce_to_total(source_arr,add)
 index = 0
 sum = 0
-if(add == 0)
+if(add == nil)
      while index < source_arr.length do
      sum = sum + source_arr[index]
      index+=1
