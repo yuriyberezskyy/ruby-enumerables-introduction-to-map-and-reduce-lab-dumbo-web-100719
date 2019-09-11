@@ -90,3 +90,14 @@ def reduce_to_all_true(arr)
    end
    
    
+ def reduce_to_any_true1 (arr)
+     index = 0 
+     index_false = false
+     while index < arr.length do
+       if (arr[index]==index_false)
+         index_false
+       end
+       index+=1 
+     end
+     return index_false
+   end
