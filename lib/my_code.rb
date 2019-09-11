@@ -65,4 +65,15 @@ def reduce_to_all_true(arr)
    return only_true
  end
    
+   def reduce_to_all_true1(arr)
+  index = 0 
+  only_true = 0
+  while index < arr.length do
+    if arr[index] == false
+        only_false = false
+     end
+     index+= 1
+   end
+   return only_false
+ end
 
