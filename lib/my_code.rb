@@ -33,20 +33,12 @@ def map_to_square(arr)
   return arr
 end
 
-def reduce_to_total(source_arr,add)
+def reduce_to_total(source_arr)
 index = 0
 sum = 0
-if(add == nil)
-     while index < source_arr.length do
-     sum = sum + source_arr[index]
-     index+=1
-     end
-     return sum
-else 
-   while index < source_arr.length do
-     sum = sum + source_arr[index]
-     index+=1
-     end
-     return sum + add
-   end
+while index < source_arr.length do
+  sum = sum + source_arr[index]
+  index+=1
+end
+return sum
 end
